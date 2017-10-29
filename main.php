@@ -26,21 +26,23 @@
                                 background: -o-linear-gradient(<?php echo($result["colorA"]); ?>, <?php echo($result["colorB"]); ?>);
                                 background: linear-gradient(<?php echo($result["colorA"]); ?>, <?php echo($result["colorB"]); ?>);
                                 margin:auto;
-                                width: 80%;
+                                width: 100%;
                                 height: 100%;
                                 margin: auto;
                                 background-repeat: no-repeat;
                                 background-attachment: fixed;
+				verticle-align: middle;
+				width: 220px;
+				height: 100px;
+				position: absolute;
+				top:0;
+           			bottom: 0;
+            			left: 0;
+           			right: 0;
+				font-size:20px;
                         
                     }
-                article
-                    {
-                        background: linear-gradient(blue,green);                   
-                        margin:auto;
-                        width:60%;
-                        background:
-                        height:100%
-                    }
+
             </style> 
             <script>
                 const express = require('express')
